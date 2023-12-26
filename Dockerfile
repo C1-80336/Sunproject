@@ -1,2 +1,3 @@
-FROM apache2
-COPY index.html
+FROM httpd
+COPY index.html /usr/local/apache2/htdocs/
+
